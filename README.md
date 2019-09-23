@@ -33,3 +33,4 @@ $python monitor.py <nome_da_tabela_a_ser_monitorada>
 
 ## Screenshot
 
+![screenshot](https://github.com/Doc-McCoy/database-monitor/blob/master/screenshot.png)
