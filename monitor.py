@@ -1,12 +1,5 @@
 #!python3
 
-"""
-- Abrir o arquivo passando como argumento o nome da tabela a ser monitorada
-- Criar um laço infinito que rode a cada X segundos
-- Conectar com o banco e fazer a consulta
-- Utilizar o curses para exibir os resultados ao vivo
-"""
-
 import sys, configparser, time, psycopg2, curses
 
 
@@ -77,7 +70,7 @@ class Curses():
 		self.screen.attroff(curses.color_pair(3))
 
 		# Count columns
-		columns = len(self.data[0])
+		columns = len(self.data[0]) if self.data else 1
 		space_between_columns = self.width / columns
 		space_between_columns = int(space_between_columns)
 
