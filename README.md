@@ -16,7 +16,7 @@ $source venv/bin/activate
 (venv)$pip install -r requirements.txt
 ```
 
-### Editar o `config.ini` com as informações do postgres
+### Criar um arquivo `config.ini` com as informações do postgres, seguindo o modelo:
 ```ini
 [DATABASE]
 host = host
