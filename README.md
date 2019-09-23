@@ -13,7 +13,7 @@ $source venv/bin/activate
 
 ### Instalar as dependências
 ```shell
-$pip install -r requirements.txt
+(venv)$pip install -r requirements.txt
 ```
 
 ### Editar o `config.ini` com as informações do postgres
@@ -28,7 +28,7 @@ port = port
 
 ## Modo de usar:
 ```shell
-$python monitor.py <nome_da_tabela_a_ser_monitorada>
+(venv)$python monitor.py <nome_da_tabela_a_ser_monitorada>
 ```
 
 Após isso, as atualizações em tempo real nessa tabela serão exibidas no terminal.
