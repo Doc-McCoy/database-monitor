@@ -31,6 +31,8 @@ port = port
 $python monitor.py <nome_da_tabela_a_ser_monitorada>
 ```
 
+Após isso, as atualizações em tempo real nessa tabela serão exibidas no terminal.
+
 ## Screenshot
 
 ![screenshot](https://github.com/Doc-McCoy/database-monitor/blob/master/screenshot.png)
