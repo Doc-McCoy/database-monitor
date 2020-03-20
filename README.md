@@ -36,3 +36,7 @@ Após isso, as atualizações em tempo real nessa tabela serão exibidas no term
 ## Screenshot
 
 ![screenshot](https://github.com/Doc-McCoy/database-monitor/blob/master/screenshot.png)
+
+## TODO
+
+- [ ] Adaptar o app para se conectar com o MySQL e SQLite também.
